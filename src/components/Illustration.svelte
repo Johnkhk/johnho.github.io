@@ -71,7 +71,7 @@
     }
     div.container {
       background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url("../images/ilustracion-mini.png"),
+        url("./images/ilustracion-mini.png"),
         radial-gradient(
           61.49% 60.79% at 50% 60.79%,
           #81ecf2 42.16%,
