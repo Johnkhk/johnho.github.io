@@ -41,8 +41,8 @@ export const projects =
       },
       {
          "titulo": "React SVG arrows on Media Player",
-         "src": "./images/svgdraw.PNG",
-         "src_dsk": "./images/svgdraw.PNG",
+         "src": "./images/svgdraw.png",
+         "src_dsk": "./images/svgdraw.png",
          "contenido": "Esta es una extensión de VSCode que creé para mejorar mi flujo de trabajo con Python. \
           Permite al usuario ejecutar comandos comunes como tareas de VSCode en vez de escribirlos manualmente cada vez. \
           Aunque la creé principalmente para mi uso personal, tiene más de 5000 descargas en VSCode Marketplace",
