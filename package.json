@@ -13,7 +13,7 @@
     "@rollup/plugin-commonjs": "^11.0.0",
     "@rollup/plugin-node-resolve": "^7.0.0",
     "gh-pages": "^2.2.0",
-    "rollup": "^1.20.0",
+    "rollup": "^2.57.0",
     "rollup-plugin-json-parse": "^1.1.5",
     "rollup-plugin-livereload": "^2.0.0",
     "rollup-plugin-node-builtins": "^2.0.0",
@@ -25,6 +25,9 @@
   "dependencies": {
     "@rollup/plugin-json": "^4.0.3",
     "@smui/switch": "^1.0.0-beta.21",
+    "audit": "^0.0.6",
+    "fix": "^0.0.6",
+    "npm": "^7.24.1",
     "rollup-plugin-postcss": "^2.8.2",
     "sirv-cli": "^0.4.4",
     "svelte-i18n": "^3.0.3",
