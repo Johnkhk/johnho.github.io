@@ -44,7 +44,7 @@
   div.agua {
     position: absolute;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url("../images/agua.png");
+      url("./images/agua.png");
     background-position-x: center;
     height: 329px;
     filter: url("#turbulence");
@@ -85,7 +85,7 @@
   div.tierra {
     position: absolute;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url("../images/tierra.png");
+      url("./images/tierra.png");
     /* background-position: 8px 60px; */
     background-position: center calc(2px + 100%);
     height: calc(100vh - 279px);
@@ -97,7 +97,7 @@
 
   div.hielo {
     position: absolute;
-    background: url("../images/hielo.png") no-repeat;
+    background: url("./images/hielo.png") no-repeat;
     z-index: 2;
     width: 100%;
     height: 121px;
