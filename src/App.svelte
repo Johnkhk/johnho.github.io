@@ -27,15 +27,15 @@
 <main>
   {#if $activeStore === 'Landing'}
     <Landing />
-  {:else if $activeStore === 'Home'}
+  {:else if $activeStore === 'My Projects'}
     <Transition>
       <Home />
     </Transition>
-  {:else if $activeStore === 'Products'}
+  {:else if $activeStore === 'Projects'}
     <Transition>
       <Strategy />
     </Transition>
-  {:else if $activeStore === 'My Skills'}
+  {:else if $activeStore === 'My Resume'}
     <Transition>
       <Skills />
     </Transition>

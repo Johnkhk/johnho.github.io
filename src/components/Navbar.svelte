@@ -182,7 +182,7 @@
     margin-top: 7px;
   } */
 
-  img:not([alt="Federico Varela"]) {
+  img:not([alt="John Ho"]) {
     margin-top: -3px;
   }
 
@@ -229,12 +229,14 @@
 <nav class="navbar">
   <div class="container">
     <button on:click={() => ($activeStore = 'Landing')}>
-      <img src="./images/logo.png" alt="Federico Varela" height="50" />
+      <img src="./images/home.png" alt="John Ho" height="50" margin="10"/>
+      <!-- <img src="./images/logo.png" alt="John Ho" height="50" /> -->
+
     </button>
     <div class="links">
-      <NavLink keyword="Home" {src} cat={false} />
-      <NavLink keyword="Products" {src} cat={false} />
-      <NavLink keyword="My Skills" {src} cat={false} />
+      <NavLink keyword="My Projects" {src} cat={false} />
+      <!-- <NavLink keyword="Projects" {src} cat={false} /> -->
+      <NavLink keyword="My Resume" {src} cat={false} />
       <NavLink keyword="Contact Me" {src} cat={false} />
       <button id="settings" on:click={toggleModal}>
         <img src="./svg/settings.svg" alt="Settings" width="20" height="20" />
@@ -253,9 +255,9 @@
     <button class="close" on:click={toggleOverlay}>
       <img src="./svg/close.svg" alt="Close" />
     </button>
-    <NavLink keyword="Home" {src} cat={p} />
-    <NavLink keyword="Products" {src} cat={p} />
-    <NavLink keyword="My Skills" {src} cat={p} />
+    <NavLink keyword="My Projects" {src} cat={p} />
+    <!-- <NavLink keyword="Products" {src} cat={p} /> -->
+    <NavLink keyword="My Resume" {src} cat={p} />
     <NavLink keyword="Contact Me" {src} cat={p} />
   </aside>
 {/if}

@@ -96,6 +96,9 @@
 
 <section>
   <h1>{titulo}</h1>
+  <!-- <p>{titulo}</p> -->
+  <!-- <p>wut</p> -->
+
   <h3>
     <button on:click={() => ($projectStore = null)}>
       <img src="./svg/back.svg" alt="Back" width="15" />
@@ -103,8 +106,10 @@
     </button>
   </h3>
   <img id="desktop" src={src_dsk} alt={titulo} />
+  <!-- <img id="desktop" src={src_dsk} alt=wutt /> -->
 
   <p>{@html $langStore === 'en' ? contenido_en : contenido}</p>
+  <!-- {console.log(typeof(contenido_en))} -->
 
     <a href={w > 683 ? liveUrl.desktop : liveUrl.mobile} class:disabled={disabled}>
       {@html disabled ? $_('home.disabled') : `${$_('home.call-to-action')} <img src="./svg/new_tab.svg" alt="Open in new tab" />`}

@@ -1,14 +1,13 @@
 {
   "navbar": {
-      "Home": "Home",
-      "Products": "Products",
-      "My Skills": "My Skills",
+      "My Projects": "My Projects",
+      "My Resume": "My Resume",
       "Contact Me": "Contact Me",
       "config": "Configuration"
   },
   "landing": {
-      "titulo": "Hi, I'm Federico Varela",
-      "subtitulo": "I'm an amateur full-stack web developer and electrical engineering student",
+      "titulo": "Hi, I'm John Ho (Kwok Hung)",
+      "subtitulo": "I'm a robotics engineering MS student at UC San Diego. My passions include machine learning, web programming, and software in general.",
       "call-to-action": "MY PROJECTS",
       "call-to-action-secondary": "MESSAGE ME"
   },
@@ -26,7 +25,7 @@
       "boton": "consult me"
   },
   "skills": {
-      "titulo": "My Skills",
+      "titulo": "My Resume",
       "subtitulo": "Click on them to learn more!"
 
   },

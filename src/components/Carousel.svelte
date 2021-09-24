@@ -4,6 +4,9 @@
   export let projects;
   let w = screen.width;
   let activeProjects = projects.map(p => p.liveUrl.desktop && p.liveUrl.mobile ? "" : "disabled");
+
+  // import { activeStore, projectStore, langStore } from "../stores";
+  
 </script>
 
 <style>
@@ -80,7 +83,12 @@
     <section
       style="background-image: linear-gradient(rgba(0,0,0, 0.6),rgba(0,0,0,
       0.6)), url('{project.src}')">
+      <!-- export let titulo = projects; -->
       <h3>{project.titulo}</h3>
+      <!-- <h3>{titulo}</h3> -->
+      <!-- <h3>hello</h3> -->
+      <!-- <p>{project.titulo}</p> -->
+      <!-- {console.log(typeof(project.titulo))} -->
       <nav>
           <a href={w > 683 ? project.liveUrl.desktop : project.liveUrl.mobile} class={activeProjects[i]}>
             {@html !activeProjects[i] ? `${$_("home.call-to-action")} <img src="./svg/new_tab.svg" alt="Open in new tab" />` : $_("home.disabled")}

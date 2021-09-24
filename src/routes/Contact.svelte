@@ -1,6 +1,7 @@
 <script>
   import { _ } from "svelte-i18n";
-  const endpoint = "https://formspree.io/xbjzrjzv";
+  // const endpoint = "https://formspree.io/xbjzrjzv";
+  const endpoint = "https://formspree.io/f/mdoybjbo";
   const formData = {
     name: "",
     _replyto: "",
@@ -156,11 +157,12 @@
 <h1>{$_('contact-me.titulo')}</h1>
 <p>
   {$_('contact-me.subtitulo')}
-  <a class="email" href="mailto:federicovr02@gmail.com ">
-    federicovr02@gmail.com
+  <a class="email" href="mailto:johnho.khh@gmail.com ">
+    johnho.khh@gmail.com
   </a>
 </p>
 <div>
+  <!-- <form on:submit|preventDefault={handleSubmit}> -->
   <form on:submit|preventDefault={handleSubmit}>
     <input
       type="text"
@@ -183,16 +185,16 @@
 
   <h3>{$_('contact-me.titulo_redes')}</h3>
   <aside>
-    <a rel="nofollow" href="https://github.com/FedericoVarela">
+    <a rel="nofollow" href="https://github.com/Johnkhk">
       <img src="./svg/github.svg" alt="My Github" />
     </a>
-    <a rel="nofollow" href="https://dev.to/federicovarela">
+    <!-- <a rel="nofollow" href="https://dev.to/federicovarela">
       <img src="./svg/devto.svg" alt="My dev.to profile" />
-    </a>
+    </a> -->
     <a
       rel="nofollow"
-      href="https://stackoverflow.com/users/11141825/federico-varela">
-      <img src="./svg/stack.svg" alt="My StackOverflow" />
+      href="https://www.linkedin.com/in/johnkhho/">
+      <img src="./svg/stack.svg" alt="My LinkedIn" />
     </a>
   </aside>
 </div>

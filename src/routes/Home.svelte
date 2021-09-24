@@ -8,7 +8,6 @@
 
   let y = screen.width;
 </script>
-
 {#if $projectStore === null}
   <h1>{$_("home.titulo")}</h1>
   <h6>{$_("home.subtitulo")}</h6>

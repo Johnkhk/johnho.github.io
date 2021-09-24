@@ -86,7 +86,7 @@
   <p>{$_('landing.subtitulo')}</p>
 
   <section>
-    <button class="main-action" on:click={() => ($activeStore = 'Home')}>
+    <button class="main-action" on:click={() => ($activeStore = 'My Projects')}>
       {$_('landing.call-to-action')}
     </button>
     <button
@@ -98,16 +98,16 @@
   <aside>
     <ul>
       <li>
-        <a href="https://stackoverflow.com/users/11141825/federico-varela">
-          StackOverflow
+        <a href="https://www.linkedin.com/in/johnkhho/">
+          LinkedIn
         </a>
       </li>
       <li>
-        <a href="https://github.com/FedericoVarela">Github</a>
+        <a href="https://github.com/Johnkhk">Github</a>
       </li>
-      <li>
+      <!-- <li>
         <a href="https://dev.to/federicovarela">Dev.to</a>
-      </li>
+      </li> -->
     </ul>
   </aside>
 </article>

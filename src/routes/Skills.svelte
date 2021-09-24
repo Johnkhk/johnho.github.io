@@ -1,4 +1,6 @@
 <script>
+  // import PdfViewer from 'svelte-pdf';
+
   import { _ } from "svelte-i18n";
   import { langStore } from "../stores.js";
   import SkillModal from "../components/SkillModal.svelte";
@@ -8,7 +10,14 @@
   // let y = screen.width;
 
   const deactivate = () => (activo = null);
+  // import { PdfThumbnail } from "omysoul/svelte-pdf-viewer";
+  // let numPages;
+  import PdfViewer from 'svelte-pdf';
+  // var PdfViewer = require('svelte-pdf');
+
 </script>
+
+<!-- <PdfThumbnail src="./images/JohnHo_resume.pdf" page="{1}" style="width: 80vw;" bind:numPages /> -->
 
 {#if activo != null}
   <SkillModal
@@ -19,18 +28,24 @@
 {/if}
 
 <h1>{$_("skills.titulo")}</h1>
-<h2 class="action">{$_("skills.subtitulo")}</h2>
-<div>
+
+<PdfViewer url='./JohnHo_resume.pdf' />
+
+
+<!-- <h2 class="action">{$_("skills.subtitulo")}</h2> -->
+<!-- <div>
   {#each skills[$langStore] as skill, i}
     <section on:click={() => (activo = i)} class="clickable">
       <img src={skill.icono} alt={skill.titulo} class="clickable" />
       <h2 class="clickable">{skill.titulo}</h2>
     </section>
   {/each}
-</div>
+</div> -->
+
+
 
 <style>
-  h2 {
+  /* h2 {
     color: var(--accent);
     margin-top: 10px;
   }
@@ -62,5 +77,5 @@
   }
   section:not(.active):hover {
     background-color: var(--bg-light-hover);
-  }
+  } */
 </style>
