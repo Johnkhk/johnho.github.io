@@ -29,7 +29,7 @@
 
 <h1>{$_("skills.titulo")}</h1>
 
-<PdfViewer url='./JohnHo_resume.pdf' />
+<PdfViewer url='./John_Ho_resume.pdf' />
 
 
 <!-- <h2 class="action">{$_("skills.subtitulo")}</h2> -->
