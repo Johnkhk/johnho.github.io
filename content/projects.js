@@ -18,8 +18,8 @@ export const projects =
           It was built with React, Node, MongoDB, and hosted on an Amazon EC2 instance. \
           ",
          "liveUrl": {
-            "desktop": "http://cryptotrackerr.tk",
-            "mobile": "http://cryptotrackerr.tk"
+            "desktop": "https://cryptotrackerr.tk",
+            "mobile": "https://cryptotrackerr.tk"
          }
       },
       {
