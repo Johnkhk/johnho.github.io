@@ -2687,7 +2687,7 @@
   dependencies:
     "estree-walker" "^0.6.1"
 
-"rollup@^1.20.0", "rollup@^1.20.0 || ^2.0.0", "rollup@^1.20.0||^2.0.0", "rollup@^2.0.0", "rollup@>=2.0.0":
+"rollup@^1.20.0":
   "integrity" "sha512-/2HA0Ec70TvQnXdzynFffkjA6XN+1e2pEv/uKS5Ulca40g2L7KuOE3riasHoNVHOsFD5KKZgDsMk1CP3Tw9s+A=="
   "resolved" "https://registry.npmjs.org/rollup/-/rollup-1.32.1.tgz"
   "version" "1.32.1"
@@ -2963,7 +2963,7 @@
     "file-saver" "^2.0.2"
     "pdfjs-dist" "^2.5.207"
 
-"svelte@^3.0", "svelte@^3.25.1", "svelte@^3.4.3", "svelte@>=3.5.0":
+"svelte@^3.0", "svelte@^3.4.3":
   "integrity" "sha512-lAcryr9Do2PeGtbodspX5I4kWj4yWYAa2WGpDCwzNkP3y8WZTxigMd4/TMO1rBZEOkMYGn4ZXrbAlSEGhK6q3w=="
   "resolved" "https://registry.npmjs.org/svelte/-/svelte-3.42.6.tgz"
   "version" "3.42.6"
