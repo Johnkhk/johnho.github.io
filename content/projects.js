@@ -1,7 +1,7 @@
 export const projects =
    [
       {
-         "titulo":"Cryptotrackerr.tk",
+         "titulo":"Cryptotracker.fyi",
          // "titulo": "bruh",
 
          // "src": "./images/blog_mobile.png",
@@ -14,12 +14,28 @@ export const projects =
           La idea principal detrás de este proyecto fue practicar el uso de ciertas tecnologías y los detalles de implementación de ciertas funcionalidades.<br><br> \
            El código está disponible públicamente así puedo recibir retroalimentación y crear una referencia para aquellos que quieran implementar algo similar. ",
 
-         "contenido_en": "This <a href='https://github.com/Johnkhk/CryptoTrackerWeb2.0'>website</a> lets users sign in and track crypto currencies using the CoinMarketCap API. \
+         "contenido_en": "This <a href='https://github.com/Johnkhk/CryptoTrackerWeb3.0'>website</a> lets users sign in and track cryptocurrencies using the CoinMarketCap API. \
           It was built with React, Node, MongoDB, and hosted on an Amazon EC2 instance. \
           ",
          "liveUrl": {
-            "desktop": "https://cryptotrackerr.tk",
-            "mobile": "https://cryptotrackerr.tk"
+            "desktop": "https://cryptotracker.fyi",
+            "mobile": "https://cryptotracker.fyi"
+         }
+      },
+      {
+         "titulo": "CloudInference.app",
+         "src": "./images/cloudinf.png",
+         "src_dsk": "./images/cloudinf.png",
+         "contenido": "Esta es una extensión de VSCode que creé para mejorar mi flujo de trabajo con Python. \
+          Permite al usuario ejecutar comandos comunes como tareas de VSCode en vez de escribirlos manualmente cada vez. \
+          Aunque la creé principalmente para mi uso personal, tiene más de 5000 descargas en VSCode Marketplace",
+
+         "contenido_en": "This is a <a href='https://github.com/Johnkhk/CloudInference'>website</a> which allows users to perform machine learning inference on the web \
+         So far, the website contains a text summarizer. The website also generates Wikipedia articles to let users copy and paste articles to summarize.  \
+         ",
+         "liveUrl": {
+            "desktop": "https://www.cloudinference.app/summarizer",
+            "mobile": "https://www.cloudinference.app/summarizer"
          }
       },
       {
